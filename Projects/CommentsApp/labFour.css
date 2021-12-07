@@ -1,0 +1,41 @@
+h1 {
+    color: blue;
+}
+
+.main {
+    position:absolute; 
+    width: 40%; 
+    left: 30%; 
+    bottom: 20%;
+    color: blue;
+}
+
+#main {
+    position:absolute; 
+    width: 50%; 
+    left: 30%; 
+    bottom: 30%;
+    color: blue;
+}
+
+.commentForm {
+   color: blue;
+}
+
+.comment {
+    position:absolute; 
+    width: 50%; 
+    left: 30%; 
+    bottom: 50%;
+    color: blue;
+}
+
+.main .nocomments {
+    top: 20%;
+    height: 20px;
+}
+
+#dbmain {
+    color: blue;
+}
+

@@ -1,0 +1,86 @@
+body {
+    background-color: gray;
+}
+.mainBody {
+    padding: 12px;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+.warning {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login {
+    background-color: green;
+    text-align: center;
+    
+}
+
+.register {
+    background-color: orange;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 20%;
+    color: #666;
+    text-align: left;
+    padding: 5px;
+    color: blue;
+    border: 1px solid black;
+}
+
+.values {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd
+}
+
+.values li {
+    display: inline-block;
+    width: 20%;
+    color: #666;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.numAccounts {
+    color: blue;
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.date {
+    text-align: right;
+    color: blue;
+    padding: 12px;
+  
+}

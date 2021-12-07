@@ -1,0 +1,15 @@
+.formContent {
+    margin: 0;
+    padding: 0;
+    color: blue; 
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    
+    
+}
+
+.formContent a {
+    color: red;
+    
+}

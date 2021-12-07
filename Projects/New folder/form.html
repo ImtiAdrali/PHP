@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>Lab Exercise #1 - Form</h1>
+        <div>
+            <form method="GET" action="#" autocomplete="on">
+                Name: <input type="text"> <br><br>
+                E-Mail Address: <input type="email"> <br><br>
+                
+                <label for="week_days">Today is:</label>
+                <input list="week_days" id="week_days" name="week_days" placeholder="Select a day of the week"/>
+
+                <datalist id="week_days">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                </datalist>
+                <br><br>
+                <label for="rating"> How would you rate our site?</label>
+                <select name="rating">
+                    <option value="none" selected hidden>-Choose One-</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Poor">Poor</option>
+                    <option value="Terrible">Terrible</option>
+                </select>
+                <br><br>
+                Comments? <br><br> <textarea name="comments" rows="4" cols="50"></textarea> <br><br>
+                Would you like to be on our mailing list?
+                <br><br>
+                <input type="radio" name="mailing" value="Yes">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" name="mailing" value="No">
+                <label for="No">No</label><br>
+                <input type="radio" name="mailing" value="Don'tCare">
+                <label for="Don'tCare">Don't Care</label><br><br>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+            </form>
+        </div>
+    </body>
+</html>
